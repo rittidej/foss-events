@@ -1,9 +1,210 @@
+*{
+    box-sizing: border-box;
+}
 html,
 body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
 }
+
+/* 2nd navbar*/
+/*
+nav{
+    background-color: #58D68D ;
+    height: 73px;
+    width: 100%;
+}
+
+label.logo{
+    color: white ;
+    font-size: 36px;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+    padding: 2px;
+}
+nav ul li a{
+    color: #ECF0F1;
+    font-size: 16px;
+    padding: 7px 13px ;
+    border-radius: 3px; 
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background-color: whitesmoke;
+    color: yellowgreen;
+    transition: .5s;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#github{
+    font-size: 40px;
+    color: black;
+    margin-left: 20px;
+}
+#github:hover{
+    font-size: 45px;
+    background-color: #58D68D;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+ 
+*/
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #58D68D;
+    color: white;
+}
+
+.brand-title {
+    font-size: 35px;
+    margin-left:40px ;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    color: #ECF0F1;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 13px ;
+    border-radius: 3px; 
+    text-transform: uppercase;
+    margin-left:20px ;
+}
+
+.navbar-links li a.active {
+    background-color: whitesmoke;
+    color: yellowgreen;
+    transition: .5s;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar-links li a:hover {
+    background-color: whitesmoke;
+    color: yellowgreen;
+    transition: .5s;
+    font-weight: bold;
+    font-size: 18px;
+}
+#links{
+    font-size: 40px;
+    color: white;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+#links:hover{
+    font-size: 50px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+}
+
+.toggle-button .bar {
+    height: 4px;
+    width: 100%;
+
+   
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+    .toggle-button .bar{
+        background-color: white;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .navbar-links ul li a {
+        padding: 5px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    #links{
+        margin-left: 200px;
+        margin-top: 15px;
+    }
+}
+
+/*end of 2nd navbar*/
 
 .card-container {
     width: 100%;
