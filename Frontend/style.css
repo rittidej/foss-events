@@ -398,6 +398,10 @@ footer {
   margin:30px 10px;
 }
 
+.social-icon {
+  display: inline-block;
+  width:10px;
+}
 .contact-inputs{
   margin-left: 5px;
   margin-bottom: 12px;
