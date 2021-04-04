@@ -77,7 +77,12 @@ html {
 
 #mainHeading{
   color:#5cb85c;
-  
+  font-size: 3rem;
+}
+
+#paraGraph{
+  font-size: 1.4rem;
+  color: var(--primary-title);
 }
 
 
