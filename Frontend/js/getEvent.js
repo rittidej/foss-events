@@ -117,7 +117,7 @@ function applyFilter(){
     let noResult = document.createElement("div");
     noResult.className = "no_result";
     let heading = document.createElement("h3");
-    heading.innerText = "Sorry ! No event to display";
+    heading.innerText = "Sorry 😞 ! No Event found 🔍";
     noResult.appendChild(heading);
     cardContainer.appendChild(noResult); 
     }
