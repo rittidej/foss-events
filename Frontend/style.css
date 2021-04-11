@@ -438,13 +438,13 @@ footer {
 }
 
 .background-cont {
-  background: rgb(23, 28, 28);
+  background: rgb(246, 231, 231);
   background: radial-gradient(
     circle,
-    rgba(23, 28, 28, 1) 0%,
-    rgba(25, 25, 25, 0.5242471988795518) 5%
+    rgba(246, 231, 231, 0.5242471988795518) 0%,
+    rgba(225, 237, 237, 1) 16%
   );
-
+  box-shadow: 6px 7px 12px green;
   padding-bottom: 2%;
 }
 
@@ -707,3 +707,23 @@ footer {
     height: 0;
   }
 }
+
+/* .btn-grad {background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here //
+   color: #fff;
+   text-decoration: none;
+ } */
