@@ -637,47 +637,11 @@ footer {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   footer {
     font-size: 0.9rem;
   }
-  /* navbar responsivnes */
-  .navbar-brand{
-    font-size: 2rem;
-  }
-  .nav-link{
-    font-size: 1.5rem;
-  }
-  /* event card responsivness */
-  .date{
-    font-size: 1.5rem;
-  }
-  .event_organisation{
-    font-size:1.5rem;
-  }
-  .locationOnline{
-    font-size:1.8rem;
-  }
-  .event_card {
-    width:25rem;
-  }
-  #contact-message{
-    margin:0;
-  }
-  /* contact form responsivness */
-  a>h6{
-    font-size: 1.4rem;
-  }
- .contact-inputs{
-    font-size:1.12rem;
-  }
-  .form-control{
-    font-size: 1.2rem;
-  }
-  .btn{
-    font-size: 1.4rem;
-    
-    #paraGraph {
+  #paraGraph {
     font-size: 0.9rem;
     color: var(--primary-title);
   }
