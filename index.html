@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,6 +19,10 @@
     />
   </head>
   <body>
+    <!--Preloader Class-->
+    <div class="forloader">
+      <div id="loader2"></div> 
+    </div>
      <!--Background animation-->
     <div class="home-area" id="particles-js"></div>
     <div id="contents-page">
@@ -53,26 +56,26 @@
     <!-- Navbar Ends -->
     <!-- Main Content -->
     
-    <section class="container" id="aboutUs">
-      <div>
+    <div class="container" id="aboutUs">
+      <div id="box"> 
         <h1 id="mainHeading" class="pb-3">Searching for an open source organization? Here we are!</h1>
         <hr style="border: 1px solid #5cb85c;">
         <p id="paraGraph">Greetings! Hope you all are doing good. Want to contribute to open source and don't know what organization to search? Welcome to our website, we keep track on nearly every open source organization. We post every necessary details related to any particular organization you want to contribute in, whether is it active or not, their registration details, their page link and so on. It will be super easy for you to know about any organization. Hope you like our services. Cheers.</p>
       </div>
-    </section>
+    </div>
     
-    <div class="container-fluid mt-5" id="events">
+    <div class="mt-5" id="events">
 
       <!-- Events Filter -->
       <div class="d-flex filter-container">
 
         <!-- Search Filter -->
-        <div class="form-group flex-fill">
-          <div>
-            <label class="filter-labels" for="search-filter">Search</label>
-          </div>
+        <div class="form-group flex-fill search-input">
           <i class="fa fa-search icon"></i>
           <input class="form-control" id="search-filter" placeholder="Search for an event here ...">
+          <div class="autocom-box">
+            <!-- here list are inserted from javascript -->
+          </div>
         </div>
         <!-- Search Filter Ends -->
 
@@ -146,9 +149,9 @@
           </div>
           <div id="social-section" class="col-md-4">
             <div style="padding:0px 20px;padding-bottom: 15px;border-bottom:3.5px solid grey">
-              <p class="footer-details"><a href="https://www.dscjss.in/" target="_blank"><span class="contacts"><i class="fa fa-map-marker mr-5" aria-hidden="true"></i>DSC JSS Noida</span></a></p>
-              <p class="footer-details"><a href="mailto:dscjssnoida@gmail.com" target="_blank"><span class="contacts"><i class="fa fa-envelope mr-5" aria-hidden="true"></i>dscjssnoida@gmail.com</span></a></p>
-              <p class="footer-details"><a href="tel:+91 9876543310"><span class="contacts"><i class="fa fa-phone mr-5" aria-hidden="true"></i>+91 9876543310</span></a></p>
+              <p class="footer-details"><a href="https://www.dscjss.in/" target="_blank"><span class="contacts"><i class="fa fa-map-marker mr-5 social-icon" aria-hidden="true"></i>DSC JSS Noida</span></a></p>
+              <p class="footer-details"><a href="mailto:dscjssnoida@gmail.com" target="_blank"><span class="contacts"><i class="fa fa-envelope mr-5 social-icon" aria-hidden="true"></i>dscjssnoida@gmail.com</span></a></p>
+              <p class="footer-details"><a href="tel:+91 9876543310"><span class="contacts"><i class="fa fa-phone mr-5 social-icon" aria-hidden="true"></i>+91 9876543310</span></a></p>
             </div>
             <div id="social-media-icons">
             <a href="https://www.facebook.com/dscjssnoida/" target="_blank" title="Facebook"><i class="fa fa-facebook-square social-media" aria-hidden="true"></i></a>
@@ -211,7 +214,12 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+      <!--Preloader Script-->
+    <script> 
+        $(window).on('load',function(){
+         $('.forloader').addClass('complete')
+        })
+      </script>
     </div>
   </body>
 </html>
-
