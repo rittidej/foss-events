@@ -12,7 +12,7 @@
 [data-theme="dark"] {
   --primary-background: #010409;
   --primary-border-card: rgba(255, 255, 255, 0.125);
-  --primary-no_result:  #f0f6fc;
+  --primary-no_result: #f0f6fc;
   --primary-date: #696969;
   --primary-title: #f0f6fc;
   --primary-organisation: rgba(245, 245, 245, 0.88);
@@ -84,11 +84,6 @@ html {
 #mainHeading {
   color: #5cb85c;
   font-size: 3rem;
-}
-
-#paraGraph {
-  font-size: 1.4rem;
-  color: var(--primary-title);
 }
 
 /*Particle js background animation*/
@@ -273,7 +268,7 @@ label {
   margin-bottom: 150px;
 }
 
-.no_result{
+.no_result {
   display: flex;
   flex-direction: initial;
   justify-content: center;
@@ -571,6 +566,10 @@ footer {
   width: 100%;
   z-index: 1;
 }
+/* #paraGraph {
+  font-size: 1.4rem;
+  color: var(--primary-title);
+} */
 
 /* Scroll to top css */
 .to-top {
@@ -600,12 +599,10 @@ footer {
 .to-top.active:hover {
   background: #228b22;
 }
-
-@media screen and (max-width: 768px) {
-  .card-container {
-    align-items: center;
-    justify-content: center;
-    margin-left: 0px;
+@media screen and (max-width: 1500px) {
+  #paraGraph {
+    font-size: 1.4rem;
+    color: var(--primary-title);
   }
 }
 
@@ -622,6 +619,21 @@ footer {
   .filter-container > * {
     margin: 10px 0;
     width: auto;
+  }
+  #paraGraph {
+    font-size: 1.2rem;
+    color: var(--primary-title);
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-container {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  #paraGraph {
+    font-size: 0.9rem;
+    color: var(--primary-title);
   }
 }
 
@@ -664,6 +676,10 @@ footer {
   }
   .btn{
     font-size: 1.4rem;
+    
+    #paraGraph {
+    font-size: 0.9rem;
+    color: var(--primary-title);
   }
 }
 
@@ -764,23 +780,3 @@ footer {
     height: 0;
   }
 }
-
-/* .btn-grad {background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%)}
-.btn-grad {
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   display: block;
- }
-
- .btn-grad:hover {
-   background-position: right center; /* change the direction of the change here //
-   color: #fff;
-   text-decoration: none;
- } */
