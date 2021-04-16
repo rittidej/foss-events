@@ -377,7 +377,6 @@ label {
 }
 .event_title:hover {
   font-weight: bold;
-  font-size: 2rem;
   min-height: 5rem;
   text-transform: uppercase;
   color: #5cb85c;
