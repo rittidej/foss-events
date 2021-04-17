@@ -3,6 +3,7 @@
   --primary-border-card: rgba(0, 0, 0, 0.125);
   --primary-date: grey;
   --primary-title: black;
+  --primary-label: black;
   --primary-organisation: black;
   --primary-input-border: #e1e4e8;
   --primary-input-background: #fff;
@@ -15,6 +16,7 @@
   --primary-no_result: #f0f6fc;
   --primary-date: #696969;
   --primary-title: #f0f6fc;
+  --primary-label: black;
   --primary-organisation: rgba(245, 245, 245, 0.88);
   --primary-input-border: #21262d;
   --primary-input-background: #0d1117;
@@ -106,7 +108,7 @@ html {
 }
 
 .filter-labels {
-  color: var(--primary-title);
+  color: var(--primary-label);
   font-weight: bold;
 }
 
