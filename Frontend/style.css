@@ -405,6 +405,7 @@ label {
 footer {
   border-top: 2px solid var(--primary-border-card);
   width: 100%;
+  color: #ff0000;
   text-align: center;
   flex: none;
   position: sticky;
