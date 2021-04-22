@@ -59,6 +59,43 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.social-icons{
+  position: fixed;
+  top: 30%;
+  left: 0%;
+  width: 86px;
+  display: flex;
+  flex-direction: column;
+  z-index: 11;
+}
+
+.social-icons a{
+  padding: 10px;
+  font-size: 22px;
+  margin: 2px;
+  border-radius: 0 50px 50px 0;
+  transform: translate(-34px,0);
+  transition: all 0.5s;
+  background-color:#5ce95c;
+}
+.social-icons a:hover{
+  transform: translate(0,0);
+}
+.social-icons a i{
+  margin-left: 25px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 1s;
+}
+.social-icons a:hover i{
+  transform: rotate(360deg);
+  color:#5cb85c;
+}
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-nav .nav-link {
