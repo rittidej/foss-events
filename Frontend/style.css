@@ -55,7 +55,9 @@ body {
   transition: 2s;
   background-color: var(--primary-background);
 }
-
+body {
+  color:#746464;
+}
 html {
   scroll-behavior: smooth;
 }
