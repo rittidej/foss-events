@@ -176,7 +176,7 @@ html {
 .custom-switch .custom-control-input ~ .custom-control-label::after,
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   position: absolute;
-  background-color: #5cb85c;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -207,8 +207,8 @@ html {
 }
 
 .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #0f8a0f !important;
-  border: 3px solid #08b608 !important;
+  background-color: black !important;
+  border: 3px solid black !important;
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
@@ -616,6 +616,7 @@ footer {
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: #5cb85c!important;
 }
 /* #paraGraph {
   font-size: 1.4rem;
