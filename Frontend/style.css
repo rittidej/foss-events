@@ -55,9 +55,7 @@ body {
   transition: 2s;
   background-color: var(--primary-background);
 }
-body {
-  color:#746464;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -444,7 +442,7 @@ label {
 footer {
   border-top: 2px solid var(--primary-border-card);
   width: 100%;
-  color: #ff0000;
+  color: #746464;
   text-align: center;
   flex: none;
   position: sticky;
