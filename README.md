@@ -29,7 +29,7 @@ $ npm install
 
 - To start the server, type:
 ```
-$ node server
+$ node server.js
 ```
 ![start](https://i.postimg.cc/RCbf8Pn6/Screenshot-165.png)
 
@@ -43,6 +43,7 @@ $ git commit -m "made changes"
 
 <strong>Currently working Routes</strong>
   - Get Routes:
+      - / - Displays home page of site
       - /event - Displays all the events
       - /event/:title - Displays the deatils of the specific event
   - Post Routes:
