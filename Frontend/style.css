@@ -591,16 +591,20 @@ footer {
 
 #status.success {
   background-color: rgb(211, 250, 153);
-  animation: status 4s ease forwards;
+  display: block;
+  animation: statussucc 4s ease forwards;
+  
 }
 
 #status.error {
   background-color: rgb(250, 129, 92);
   color: white;
-  animation: status 4s ease forwards;
+  display: block;
+  animation: statuserr 4s ease forwards;
+  
 }
 
-@keyframes status {
+@keyframes statussucc {
   0% {
     opacity: 1;
     pointer-events: all;
@@ -611,6 +615,21 @@ footer {
   }
   100% {
     opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes statuserr {
+  0% {
+    opacity: 0;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 1;
     pointer-events: none;
   }
 }
