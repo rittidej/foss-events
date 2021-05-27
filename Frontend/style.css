@@ -61,17 +61,17 @@ html {
 }
 .social-icons{
   position: fixed;
-  top: 30%;
+  top: 13%;
   left: 0%;
-  width: 86px;
+  width: 85px;
   display: flex;
   flex-direction: column;
   z-index: 11;
 }
 
 .social-icons a{
-  padding: 10px;
-  font-size: 22px;
+  padding: 8px;
+  font-size: 19px;
   margin: 2px;
   border-radius: 0 50px 50px 0;
   transform: translate(-34px,0);
