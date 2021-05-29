@@ -347,8 +347,6 @@ label {
 .empty_div {
   position: relative;
   transition: all 0.5s ease;
-  box-shadow: inset 1px 1px 1px gray;
-  margin-top: 18px;
 }
 
 .event_card {
@@ -371,9 +369,7 @@ label {
 }
 
 .event_card:hover {
-  box-shadow: 0 13px 10px 0 #47bd47;
-  transform: translateY(-70px);
-  background-color: #cbf1cb;
+  box-shadow: 0 2px 8px 0 #5cb85c;
 }
 
 .event_card::before {
