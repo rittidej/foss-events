@@ -310,5 +310,13 @@
     "end": "29/07/2021",
     "organisation": "osoc",
     "location": "Online"
+  },
+  {
+    "title": "NextJS Conf",
+    "website": "https://nextjs.org/conf",
+    "start": "26/10/2021",
+    "end": "26/10/2021",
+    "organisation": "Vercel",
+    "location": "Online"
   }
 ]
