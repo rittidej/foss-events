@@ -10,9 +10,9 @@ demo.get('/' , async(req,res)=>{
     let data = await user.find({});
     console.log(data);
     res.status(200).send(data);
-
     
-    res.status(200).send("Its Working");
+    
+    res.status(200).send("Its Working well");
     
   } catch (error) {
     console.log(error);
