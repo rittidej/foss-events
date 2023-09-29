@@ -8,12 +8,6 @@ const bcrypt = require('bcrypt');
 router.post('/', async (req, res) => {
 	try {
 		let { name, email, password, confirmPassword } = req.body;
-		const main = {
-			name:name,
-			email:email,
-			password:password,
-			confirmPassword:confirmPassword
-		}
 
 		//checking if password and confirmPassword are equal
 		if (confirmPassword != password) {
@@ -43,9 +37,6 @@ router.post('/', async (req, res) => {
 					message: 'Data saved',
 					data: info,
 				});
-				console.log("User Saved");
-				console.log(main);
-				
 			}
 		}
 	} catch (err) {
